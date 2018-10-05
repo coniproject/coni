@@ -30,8 +30,8 @@ public class DeviceRegistration extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent toProfile = new Intent(DeviceRegistration.this, UserProfile.class);
-                startActivity(toProfile);
+                Intent toUserLogin = new Intent(DeviceRegistration.this, UserLogin.class);
+                startActivity(toUserLogin);
             }
         });
 

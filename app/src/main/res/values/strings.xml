@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Coni</string>
+    <string name="register">register</string>
+    <string name="lastname">lastname</string>
+    <string name="firstname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="childinitial">Middle Initial</string>
+    <string name="childbday">BIrthday</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
 </resources>
