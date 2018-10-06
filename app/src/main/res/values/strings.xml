@@ -8,4 +8,11 @@
     <string name="childbday">BIrthday</string>
     <string name="Male">Male</string>
     <string name="Female">Female</string>
+    <string name="birthday">YYYY-MM-DD</string>
+    <string name="childbirthday">Birthday</string>
+    <string name="childage">Age</string>
+    <string name="CONi">CONi</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
 </resources>

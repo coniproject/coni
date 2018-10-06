@@ -59,8 +59,8 @@
                 android:layout_height="48dp"
                 android:layout_marginTop="32dp"
                 android:ems="10"
-                android:hint="@string/childbday"
-                android:inputType="textPersonName"
+                android:hint="@string/childbirthday"
+                android:inputType="date"
                 />
 
             <RadioButton
@@ -83,6 +83,17 @@
                 android:width="220dp"
                 />
 
+            <EditText
+                android:id="@+id/childage"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginTop="32dp"
+                android:ems="10"
+                android:hint="@string/childage"
+                android:inputType="number"
+                />
+
+
 
         </LinearLayout>
 
@@ -96,7 +107,7 @@
 
 
         <Button
-            android:id="@+id/btnReg2"
+            android:id="@+id/btnReg"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
