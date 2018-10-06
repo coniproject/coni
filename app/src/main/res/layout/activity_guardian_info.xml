@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.LinearLayoutCompat xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserRegistration"
+    tools:context=".GuardianInfo"
     background="#FFF9C4"
     android:orientation="vertical"
     android:gravity="center">
@@ -24,79 +25,69 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="@string/childinfo"
+                android:text="@string/guardiandetails"
                 android:textSize="20sp"/>
             <EditText
-                android:id="@+id/childlname"
+                android:id="@+id/guardianlname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:ems="10"
-                android:hint="@string/lname"
+                android:hint="@string/guardianlname"
                 android:inputType="textEmailAddress"
                 />
 
             <EditText
-                android:id="@+id/childfname"
+                android:id="@+id/guardianfname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:ems="10"
-                android:hint="@string/firstname"
+                android:hint="@string/guardianfirstname"
                 android:inputType="textPersonName"
                 />
 
 
 
             <EditText
-                android:id="@+id/childmi"
+                android:id="@+id/guardianchildmi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:ems="10"
-                android:hint="@string/childinitial"
+                android:hint="@string/guardianinitial"
                 android:inputType="textPersonName"
                 />
 
 
             <EditText
-                android:id="@+id/childbday"
+                android:id="@+id/emailaddress"
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_marginTop="10dp"
                 android:ems="10"
-                android:hint="@string/childbirthday"
-                android:inputType="date"
-                />
-
-            <RadioButton
-                android:id="@+id/rdbmale"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:text="@string/Male"
-                android:layout_marginTop="10dp"
-                android:width="220dp"
-                />
-
-            <RadioButton
-                android:id="@+id/rdbfemale"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:text="@string/Female"
-                android:layout_marginTop="10dp"
-                android:width="220dp"
+                android:hint="@string/emailadd"
+                android:inputType="textEmailAddress"
                 />
 
             <EditText
-                android:id="@+id/childage"
+                android:id="@+id/contactnumber"
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_marginTop="10dp"
                 android:ems="10"
-                android:hint="@string/childage"
+                android:hint="@string/contactnumber"
                 android:inputType="number"
+                />
+
+            <EditText
+                android:id="@+id/relationship"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/relationship"
+                android:inputType="text"
                 />
 
 

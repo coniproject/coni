@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".UserRegistration" />
         <activity android:name=".UserProfile" />
-        <activity android:name=".UserLogin"></activity>
+        <activity android:name=".UserLogin" />
+        <activity android:name=".GuardianInfo"></activity>
     </application>
 
 </manifest>

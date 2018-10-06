@@ -1,14 +1,16 @@
 package com.example.ayabeltran.coni;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 
 public class UserRegistration extends AppCompatActivity {
 
-    Button btnregister;
+    Button btnproceed;
     EditText txtlastname,
             txtfirstname,
             txtinitial,
@@ -24,6 +26,16 @@ public class UserRegistration extends AppCompatActivity {
         txtlastname = findViewById(R.id.childlname);
         txtfirstname = findViewById(R.id.childfname);
         txtinitial = findViewById(R.id.childmi);
+        btnproceed = findViewById(R.id.btnGuardianInfo);
+
+        btnproceed.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent toGuardianReg = new Intent(UserRegistration.this, GuardianInfo.class);
+                startActivity(toGuardianReg);
+            }
+        });
     }
 
 

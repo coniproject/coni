@@ -15,4 +15,18 @@
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
+    <string name="guardianInfo">Guardian Info</string>
+    <string name="childdetails">Please fill up child information.</string>
+    <string name="childinfo">Please fill up Child Information.</string>
+    <string name="toguardian">Proceed</string>
+    <string name="guardiandetails">Please fill up Guardian Information.</string>
+    <string name="guardianlname">Last Name</string>
+    <string name="guardianfirstname">First Name</string>
+    <string name="guardianinitial">Middle Initial</string>
+    <string name="guardianuname">Create Username</string>
+    <string name="guardianpword">Create Password</string>
+    <string name="confirmpword">Confirm Password</string>
+    <string name="emailadd">Email Address</string>
+    <string name="contactnumber">Contact Number</string>
+    <string name="relationship">Relationship to the Child</string>
 </resources>
